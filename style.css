@@ -195,6 +195,33 @@ background-image: url(images/Ukraine5.jpg);
   background-position: 40%;
 }
 
+#explore_events:hover{
+   animation: exploreshow 6s infinite linear;
+   background-size: cover;
+ }
+
+ @keyframes exploreshow {
+ 0% {
+ background-image: url(images/Explore1.jpg);
+}
+20% {
+  background-image: url(images/Explore2.jpg);
+}
+ 40% {
+background-image: url(images/Explore3.jpg);
+}
+60% {
+background-image: url(images/Explore4.jpg);
+}
+80% {
+background-image: url(images/Explore5.jpg);
+}
+100% {
+  background-image: url(images/Explore6.jpg);
+}
+ }
+
+
 #spend_cash {
   background-image: url(images/restaurant.jpg);
   background-size: contain;
